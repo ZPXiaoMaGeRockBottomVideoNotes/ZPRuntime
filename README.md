@@ -1,6 +1,18 @@
 # ZPRuntime
 本Demo主要介绍了Runtime运行时的概念以及objc_msgSend函数的作用，还介绍了Runtime运行时的五大用途，还介绍了Runtime运行时常用的API的使用方法。
 
+Runtime运行时在项目中的五个作用：
+
+1、动态改变对象的属性值；
+
+2、动态交换方法；
+
+3、动态添加方法；
+
+4、为分类增加实例变量；
+
+5、使用运行时方式封装对象。
+
 视频路径：小马哥——>2018年9月iOS底层原理班（加密版）——>下（OC对象、关联对象、多线程、内存管理、性能优化）——>2.底层下-原理——>day11——>089-Runtime01-简介.ev4、090-Runtime02-isa01-简介.ev4、091-Runtime03-isa02-需求.ev4、092-Runtime04-isa03-取值.ev4、093-Runtime05-isa04-设值.ev4、094-Runtime06-isa05-位域.ev4、095-Runtime07-isa06-共用体.ev4、096-Runtime08-isa07-总结.ev4；
 
 视频路径：小马哥——>2018年9月iOS底层原理班（加密版）——>下（OC对象、关联对象、多线程、内存管理、性能优化）——>2.底层下-原理——>day12——>097-Runtime09-isa08-位运算补充.ev4、098-Runtime10-isa09-细节.ev4、099-Runtime11-方法01-Class的结构.ev4、100-Runtime12-方法02-method.ev4、101-Runtime13-方法03-Type%20Encoding.ev4、102-Runtime14-方法04-cache_t.ev4、103-Runtime15-方法05-散列表缓存.ev4；
